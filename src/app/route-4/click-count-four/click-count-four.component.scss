@@ -1,0 +1,31 @@
+
+.card{
+    height: 298px;
+    width: 600px;
+    border: 2px solid #000000;
+}
+
+.clickBox{
+   margin-top: 60px;
+}
+
+.startCountText, .pauseCountText{
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(22, 205, 211);
+}
+
+
+.count-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: xx-large;
+    color: rgb(180, 18, 18);
+}
+
+.title-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

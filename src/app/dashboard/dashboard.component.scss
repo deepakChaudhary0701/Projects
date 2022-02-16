@@ -1,0 +1,74 @@
+
+.cards-box{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 5px 5px 0px 5px;
+    padding: 20px 20px;
+    align-items: stretch;
+}
+
+.card{
+    margin: 40px 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    width: 400px;
+}
+
+
+.card-img{
+    width: 335px;
+    border: 2px solid #000000;
+    height: 111px;
+    position: relative;
+    left: 32px;
+    top: 24px;
+    margin-bottom: 15px;
+}
+
+.footer-div{
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+}
+
+.items{
+    border: 2px solid #000000;
+}
+
+.route-btn{
+    position: relative;
+    left: 20px;
+}
+
+#route3Img{
+    width: 363px;
+    height: 111px;
+}
+
+#route4Img{
+    width: 363px;
+    height: 125px;
+}
+
+.card-text{
+    width: 344px;
+    height: 111px;
+    font-size: small;
+    position: relative;
+    border: 2px solid #000000;
+    left: 13px;
+    top: 11px;
+    padding: 7px;
+}
+
+.btn-info{
+    font-size: small;
+    position: relative;
+    left: 102px;
+    top: 9px;
+}
+
+.dashboardImg{
+    width: 170px;
+    height: 50px;
+}

@@ -1,0 +1,31 @@
+
+
+<span class="arrowBox">
+    <span (click)="navigateBack()" class="dashboardLink">
+        <img src="../../../assets/images/left.png">&nbsp;
+        <span class="dashboardtext">Dashboard</span>
+    </span> &nbsp;
+      <strong>/</strong>&nbsp;
+    <span>Route_3</span>
+</span>
+
+<main class="countDownContainer">
+    <div class="countdownDiv">
+        <app-countdown-timer [inputTimerLimit]="inputTimerLimit" ></app-countdown-timer>
+    </div>
+    
+    <div class="countdownDiv">
+        <app-start-pause (clickCount)="getClickCount($event)" (startTime)="getstartTime($event)"
+         (pauseTime)="getpauseTime($event)" (timerLimitSet)="getTimeLimit($event)" (resetTimerList)="getResetStatus($event)" >
+        </app-start-pause>
+    </div>
+    
+    <div class="countdownDiv">
+        <app-time-stamp [startTime]="startAt" [pauseTime]="pauseAt" [resetTimerStatus]="resetTimerStatus" ></app-time-stamp> 
+    </div>
+
+    <div class="countdownDiv">    
+        <app-click-count [clickCount]="clickCount"></app-click-count>
+    </div>
+      
+</main>

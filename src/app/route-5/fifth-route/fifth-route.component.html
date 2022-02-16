@@ -1,0 +1,37 @@
+
+
+<main>
+
+    <span class="arrowBox">
+        <span (click)="navigateBack()" class="dashboardLink">
+            <img src="../../../assets/images/left.png">&nbsp;
+            <span class="dashboardtext">Dashboard</span>
+        </span> &nbsp;
+          <strong>/</strong>&nbsp;
+        <span>Route_5</span>
+    </span>
+    <div class="container tableDiv">
+       
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr >
+                    <td *ngFor="let header of tableHeaders" class="table-heading" (click)="sort(header)">
+                        {{ header | uppercase }} 
+                        <img src="assets/images/sort.svg" class="sortImg">
+                    </td>
+                        
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let student of studentList" class="tableData">
+                    <td >{{ student.name }}</td>
+                    <td>{{ student.class }}</td>
+                    <td>{{ student.section }}</td>
+                    <td>{{ student.sub1 }}</td>
+                    <td>{{ student.sub2 }}</td>
+                    <td>{{ student.sub3 }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div> 
+</main>

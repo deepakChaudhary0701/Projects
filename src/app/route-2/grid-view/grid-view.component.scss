@@ -1,0 +1,34 @@
+
+
+
+.productCard{
+    width: 220px;
+    height: 421px;
+    box-shadow: 20px 20px 20px grey;
+}
+
+#productImage{
+    width: 99.5%;
+    height: 94%;
+    display: block;
+}
+
+.mainBox{
+    display: inline-flex;
+    padding: 20px 79px;
+    
+}
+
+.listViewBox{
+  padding: 20px 264px !important;
+}
+
+.ratingBox{
+    position: absolute;
+    bottom: 137px;
+    font-weight: bold;
+    width: 43px;
+    text-align: center;
+    font-size: small;
+    border: 1px solid #2ea5cc;
+}

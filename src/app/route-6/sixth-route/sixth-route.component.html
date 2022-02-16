@@ -1,0 +1,22 @@
+
+
+<main >
+
+    <span class="arrowBox">
+        <span (click)="navigateBack()" class="dashboardLink">
+            <img src="../../../assets/images/left.png">&nbsp;
+            <span class="dashboardtext">Dashboard</span>
+        </span> &nbsp;
+          <strong>/</strong>&nbsp;
+        <span>Route_6</span>
+    </span>
+    
+    <div class="mainDiv" (scroll)="onScroll($event)">
+
+        <div class="row createdDiv">
+            <div class="col-lg-8">
+                <button class="btn btn-danger" (click)="alert(1)">Show Alert</button>
+            </div>
+        </div>
+    </div>
+</main>

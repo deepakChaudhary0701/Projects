@@ -1,0 +1,31 @@
+
+
+
+
+<div class="card">
+    <div class="card-header">
+         TIME STAMP
+    </div>
+    <div class="card-body timeStampBox">
+        <div *ngIf="startTimeList.length > 0">
+          <span *ngFor="let start of startTimeList">
+            <strong>Start At :</strong>&nbsp;&nbsp;
+            <span>{{ start }}</span>
+            <br>
+         </span>
+        </div>
+
+        <div *ngIf="pauseTimeList.length > 0">
+          <span *ngFor="let pause of pauseTimeList">
+            <strong>Pause At :</strong>&nbsp;&nbsp;
+            <span>{{ pause }}</span>
+            <br>
+         </span>
+        </div>
+
+        <div *ngIf="startTimeList.length == 0 && pauseTimeList.length == 0">
+             <strong>ENTER A VALID TIMER LIMIT TO START THE TIMER....</strong>
+        </div>
+      
+    </div>
+  </div>

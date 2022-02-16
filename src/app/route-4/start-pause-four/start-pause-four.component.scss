@@ -1,0 +1,36 @@
+
+
+
+.card{
+    height: 298px;
+    width: 600px;
+    border: 2px solid #000000;
+}
+
+.card-title{
+    font-weight: bold;
+    font-size: large;
+    margin: 5px 48px 5px 0px;
+}
+
+.card-body{
+  text-align: center;
+}
+
+.btn-group{
+  margin: 55px 20px;
+}
+
+.btn-success, .btn-warning, .btn-danger{
+  height: 36px;
+  width: 104px;
+  margin: 0px 62px 0px 41px;
+}
+
+.pauseLimitBox{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+

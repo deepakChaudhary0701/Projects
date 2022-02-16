@@ -1,0 +1,22 @@
+
+
+
+
+
+ <div class="mainBox" *ngFor="let product of productsList" [ngClass]="{ 'listViewBox': listView}">
+  <div class="card productCard"  >
+    <img [src]="product.image" class="card-img-top" alt="..." id="productImage">
+    <div class="card-body">
+      <h5 class="card-title">{{ product.title}}</h5>
+      <span class="card-text" [tooltip]="product.description">{{product.description | size}}</span><br>
+      <div class="ratingBox">
+        <span>{{ product.rating}}</span>
+        <img src="../../../assets/images/start.png" width="10px" height="10px">
+      </div>
+     
+      <span><strong>Rs.&nbsp;{{ product.price }}</strong></span>
+    </div>
+  </div>
+ </div>
+  
+   

@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Manuel",
+        "class": 8,
+        "section": "B",
+        "sub1": 56,
+        "sub2": 45,
+        "sub3": 39
+    },
+    {
+        "name": "Robert",
+        "class": 10,
+        "section": "C",
+        "sub1": 48,
+        "sub2": 59,
+        "sub3": 87
+    },
+    {
+        "name": "Brad",
+        "class": 9,
+        "section": "A",
+        "sub1": 68,
+        "sub2": 34,
+        "sub3": 42
+    },
+    {
+        "name": "Sofia",
+        "class": 12,
+        "section": "B",
+        "sub1": 56,
+        "sub2": 78,
+        "sub3": 24
+    },
+    {
+        "name": "Michael",
+        "class": 7,
+        "section": "A",
+        "sub1": 81,
+        "sub2": 90,
+        "sub3": 32
+    },
+    {
+        "name": "Rachel",
+        "class": 6,
+        "section": "C",
+        "sub1": 37,
+        "sub2": 89,
+        "sub3": 23
+    },
+    {
+        "name": "Samantha",
+        "class": 10,
+        "section": "B",
+        "sub1": 67,
+        "sub2": 59,
+        "sub3": 39
+    },
+    {
+        "name": "Mathew",
+        "class": 8,
+        "section": "D",
+        "sub1": 68,
+        "sub2": 64,
+        "sub3": 42
+    },
+    {
+        "name": "Jackson",
+        "class": 4,
+        "section": "B",
+        "sub1": 38,
+        "sub2": 70,
+        "sub3": 12
+    },
+    {
+        "name": "Kelly",
+        "class": 5,
+        "section": "A",
+        "sub1": 18,
+        "sub2": 34,
+        "sub3": 92
+    }
+]

@@ -1,0 +1,50 @@
+
+
+table{
+    width: 93%;
+    margin-left: 125px;
+    margin-top: 80px;
+    border: 2px solid black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+.tableDiv{
+   margin: 50px 20px;
+   border-radius: 20px;
+   justify-content: center;
+   display: flex;
+   justify-content: center;
+}
+
+.tableData:hover{
+    transform: scale(1);
+    border: 2px solid #c7c409;
+    background: rgb(0, 105, 92, 0.5);
+}
+
+.table-heading{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sortImg{
+    height: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+
+.arrowBox{
+    position: relative;
+    top: 27px;
+    left: 37px;
+}
+
+.dashboardLink{
+    cursor: pointer;
+}
+
+.dashboardtext:hover{
+    text-decoration: underline;
+}

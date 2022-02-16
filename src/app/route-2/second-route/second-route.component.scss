@@ -1,0 +1,45 @@
+
+
+.outerBox{
+    width: 100%;
+    height: 100%;
+}
+
+.navbar{
+   padding: 5px 40px;
+}
+
+
+.dropdown-item:hover{
+    cursor: pointer;
+    background-color: rgb(238, 74, 74);
+}
+
+.toggleBox{
+    width: 160px;
+}
+
+.list-grid-btnGroup{
+    border: 1px solid #000000;
+    border-radius: 5px;
+    position: relative;
+    right: 21px;
+}
+
+.gridViewBtn{
+    border-right: 1px solid #000000;
+}
+
+.btn-warning{
+    background-color: #ffff00;
+}
+
+.btn-danger{
+    margin-left: 20px;
+}
+
+.shopIcon{
+    width: 36px;
+    height: 30px;
+    margin-right: 10px;
+}

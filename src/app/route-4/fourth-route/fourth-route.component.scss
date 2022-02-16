@@ -1,0 +1,30 @@
+
+.countdownDiv{
+    height: 298px;
+    width: 600px;
+}
+
+.countDownContainer{
+    margin: 35px 34px;
+    height: 91vh;
+    width: 95vw;
+    border: 2px solid #000000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.arrowBox{
+    position: relative;
+    top: 27px;
+    left: 37px;
+}
+
+.dashboardLink{
+    cursor: pointer;
+}
+
+.dashboardtext:hover{
+    text-decoration: underline;
+}

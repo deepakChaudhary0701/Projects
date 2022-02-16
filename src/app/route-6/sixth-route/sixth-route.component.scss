@@ -1,0 +1,37 @@
+
+
+.createdDiv{
+    width: 200px !important;
+    height: 200px !important;
+    border: 2px solid black;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+.mainDiv{
+    height: 1000px;
+    width: 100%;
+    position: relative;
+    left: 653px;
+    margin-top: 40px;
+}
+
+.btn-danger{
+    position: relative;
+    top: 78px;
+    left: 35px;
+}
+
+.arrowBox{
+    position: relative;
+    top: 27px;
+    left: 37px;
+}
+
+.dashboardLink{
+    cursor: pointer;
+}
+
+.dashboardtext:hover{
+    text-decoration: underline;
+}

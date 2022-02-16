@@ -1,0 +1,29 @@
+
+
+
+
+
+<div class="card">
+    <div class="card-header">
+         COUNTDOWN TIMER LIMIT
+    </div>
+    <div class="card-body">
+      <label for="timerLimit" class="card-title">
+        Enter Timer Limit : 
+      </label>
+      <input type="number"  placeholder="Enter Timer Limit Here..." 
+       #timerLimitInput name="timerLimit" id="timerLimit"  >
+      <div class="btn-group">
+        <button class="btn  btn-success" (click)="startTimer(timerLimitInput.value)" 
+        *ngIf="!timerStatus" [disabled]="disableButton">Start</button>
+         <button class="btn btn-warning" (click)="pauseTimer()" *ngIf="timerStatus"  [disabled]="disableButton">Pause</button>
+          <button class="btn btn-danger" (click)="resetTimer('inactive')">Reset</button>
+      </div>
+    </div>
+    <div class="card-footer pauseLimitBox" *ngIf="pauseLimitList.length !== 0">
+      <div *ngFor="let pauseLimit of pauseLimitList" >
+        <strong>Pause At :</strong>&nbsp;&nbsp;
+        <span>{{ pauseLimit }}</span>
+      </div>    
+    </div>
+  </div>

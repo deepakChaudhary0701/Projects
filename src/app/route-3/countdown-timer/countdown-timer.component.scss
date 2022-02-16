@@ -1,0 +1,17 @@
+
+.card{
+    height: 298px;
+    width: 600px;
+    border: 2px solid black;
+}
+
+.timerLimitBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timerText{
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

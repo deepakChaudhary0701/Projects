@@ -1,0 +1,74 @@
+
+<header class="headerBox">
+     <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #e3f2fd;">
+      <img src="../../../assets/images/shop.png" class="shopIcon">
+          <a class="navbar-brand" >SapKart</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link active" >MEN </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" >Women</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link disabled" >KIDS</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link disabled" >HOME & LIVING</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link disabled" >BEAUTY</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link disabled" >STUDIO</a>
+              </li>
+            </ul>      
+
+          </div>
+
+          <div class="list-grid-btnGroup">
+            <button class="btn gridViewBtn" (click)="switchView('grid')" tooltip="Grid View" 
+            [ngClass]="{ 'btn-warning': viewOrder === 'grid'}">
+              <img src="../../../assets/images/grid-1.png">
+             </button>
+             
+             <button class="btn" (click)="switchView('list')" tooltip="List View"
+              [ngClass]="{ 'btn-warning': viewOrder === 'list'}">
+               <img src="../../../assets/images/list-1.png">
+             </button>
+          </div>
+            <div class="dropdown">
+              <button class="btn btn-info dropdown-toggle toggleBox" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                 {{ sortingHeader }}
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" (click)="sort('asc')" >Low-High</a></li>
+                <li><a class="dropdown-item" (click)="sort('desc')">High-Low</a></li>
+                <li><a class="dropdown-item" (click)="sort('neutral')">Random</a></li>
+              </ul>
+            </div>
+               <button class="btn btn-danger my-2" (click)="navigateBack()">Logout</button>
+        </nav>
+</header>
+
+<main>
+    <div class="outerBox" >  
+      
+     
+        <app-grid-view [sortingOrder]="sortingOrder" [viewOrder]="viewOrder"></app-grid-view>
+     
+      
+ </div>
+    
+    
+</main>
+
